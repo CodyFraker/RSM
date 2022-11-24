@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSMApi", "RSMApi\RSMApi.csproj", "{D4265516-D9DD-48B1-BDDB-0E83FE22B871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSMModels", "RSMModels\RSMModels.csproj", "{33398B01-D513-4EE9-8301-3292562C239B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4265516-D9DD-48B1-BDDB-0E83FE22B871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4265516-D9DD-48B1-BDDB-0E83FE22B871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4265516-D9DD-48B1-BDDB-0E83FE22B871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4265516-D9DD-48B1-BDDB-0E83FE22B871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33398B01-D513-4EE9-8301-3292562C239B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33398B01-D513-4EE9-8301-3292562C239B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33398B01-D513-4EE9-8301-3292562C239B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33398B01-D513-4EE9-8301-3292562C239B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B57C383A-F8F7-4377-A2A4-A3261CCCDA3D}
+	EndGlobalSection
+EndGlobal

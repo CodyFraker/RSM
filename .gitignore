@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+RSMApi/.env
+RSMApi/appsettings.Development.json
+Frontend/.env
