@@ -48,14 +48,26 @@ export default {
   },
   methods: {
     setPlace(place) {
-      this.selectedCity = {
-        name: place.address_components[0].long_name,
-        state: place.address_components[2].long_name,
-        coordinates: {
-          lat: parseFloat(place.geometry.location.lat()),
-          lng: parseFloat(place.geometry.location.lng()),
-        },
-      };
+      console.log('Place: ', place);
+      if (place.address_components.length === 4) {
+        this.selectedCity = {
+          name: place.address_components[0].long_name,
+          state: place.address_components[2].long_name,
+          coordinates: {
+            lat: parseFloat(place.geometry.location.lat()),
+            lng: parseFloat(place.geometry.location.lng()),
+          },
+        };
+      } else if (place.address_components.length === 3) {
+        this.selectedCity = {
+          name: place.address_components[0].long_name,
+          state: place.address_components[1].long_name,
+          coordinates: {
+            lat: parseFloat(place.geometry.location.lat()),
+            lng: parseFloat(place.geometry.location.lng()),
+          },
+        };
+      }
       this.$emit('setcity', this.selectedCity);
     },
     clearMap() {
